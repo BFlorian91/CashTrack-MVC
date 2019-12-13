@@ -10,21 +10,21 @@ class ViewAddMoney extends View
                 <div class="row">
                     <div class="col-6">
                         <label class="mt-4" for="">Account Florian</label>
-                        <input class="form-control" type="text" name="account1" id="account">
+                        <input class="form-control text-right" type="text" name="account1" id="account" placeholder="€">
                     </div>
                     <div class="col-6">
                         <label class="mt-4" for="">Account Mary</label>
-                        <input class="form-control" type="text" name="account2" id="account">
+                        <input class="form-control text-right" type="text" name="account2" id="account" placeholder="€">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-6">
                         <label class="mt-4" for="">Salary Florian</label>
-                        <input class="form-control" type="text" name="salary1">
+                        <input class="form-control text-right" type="text" name="salary1" placeholder="€">
                     </div>
                     <div class="col-6">
                         <label class="mt-4" for="">Salary Mary</label>
-                        <input class="form-control" type="text" name="salary2">
+                        <input class="form-control text-right" type="text" name="salary2" placeholder="€">
                     </div>
                 </div>
 
