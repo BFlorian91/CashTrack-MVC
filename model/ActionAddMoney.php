@@ -8,7 +8,7 @@
         
         public function __construct()
         {
-            $this->_file = 'data/database.txt';
+            $this->_file = 'data/datasAdd.txt';
             $this->_total = null;
         }
 

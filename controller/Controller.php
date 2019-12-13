@@ -35,4 +35,9 @@
         {
             return $this->_view;
         }
+
+        public function putInAdd($path)
+        {
+            file_put_contents('data/datasAdd.txt', $path);
+        }
     }
