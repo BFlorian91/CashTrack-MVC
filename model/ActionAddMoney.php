@@ -2,8 +2,8 @@
 
     class ActionAddMoney
     {
-        protected $_file;
-        protected $_total;
+        private $_file;
+        private $_total;
 
         
         public function __construct()
