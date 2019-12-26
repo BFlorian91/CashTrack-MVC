@@ -38,8 +38,14 @@ class View
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="ml-auto">
+            <a class="mr-4 text-white" href="index.php?page=">Money</a>
+            <a class="mr-4 text-white" href="index.php?page=addspent">Spent</a>
+        </div>
     </nav>
     <div style="height: 125px;"></div>
+    <div class="container">
+
     <?php
     }
 

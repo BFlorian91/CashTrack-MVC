@@ -19,8 +19,11 @@
                 case 'addspent':
                     $ctrl = new ControllerAddSpent();
                 break;
+                case 'home':
+                    $ctrl = new ControllerHome();
+                break;
                 default:
-                    $ctrl = new ControllerAddMoney();
+                    $ctrl = new ControllerHome();
                 break;
             }
             return $ctrl;
