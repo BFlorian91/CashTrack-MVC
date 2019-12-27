@@ -22,6 +22,9 @@
                 case 'home':
                     $ctrl = new ControllerHome();
                 break;
+                case 'chart':
+                    $ctrl = new ControllerChart();
+                break;
                 default:
                     $ctrl = new ControllerHome();
                 break;
@@ -41,6 +44,6 @@
 
         public function putInAdd($path)
         {
-            file_put_contents('data/datasAdd.txt', $path);
+            file_put_contents('datas/datasAdd.txt', $path);
         }
     }

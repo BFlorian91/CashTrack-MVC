@@ -9,7 +9,7 @@
 
         public function __construct($totalAccount = null)
         {
-            $this->_file = 'data/datasSpent.txt';
+            $this->_file = 'datas/datasSpent.txt';
             $this->_totalSpent = null;
             $this->_totalAccount = $totalAccount;
         }

@@ -52,7 +52,7 @@ class ViewAppSpent extends View
             </thead>
             <tbody>
                 <?php
-                    $datas = unserialize(file_get_contents('data/datasSpent.txt'));
+                    $datas = unserialize(file_get_contents('datas/datasSpent.txt'));
                     if (!empty($datas)) {
                         foreach ($datas as $key => $val) { 
                             if ($key > 0) :?>
