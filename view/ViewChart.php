@@ -18,7 +18,7 @@
 					labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
 					datasets: [{
 						label: 'Spent',
-						data: [22, 19, 3, 5, 2, 3, 23, 43, 34, 12, 25, 15],
+						data: ["220", 150, 450],
 						backgroundColor: [
 							'rgba(54, 162, 235, 0.2)',
 							'rgba(255, 206, 86, 0.2)',

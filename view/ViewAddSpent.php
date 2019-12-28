@@ -62,7 +62,7 @@ class ViewAppSpent extends View
                                 <td><?php echo $val['spent']; ?>€</td>
                                 <td><?php echo $val['date']; ?></td>
                                 <td class="text-center"><button class="btn btn-danger"><i class="fas fa-trash"></i></button>
-                                <button class="btn btn-primary"><i class="fas fa-edit"></i></button></td>
+                                <button class="btn btn-info"><i class="fas fa-edit"></i></button></td>
                             </tr>
                             <?php endif; }
                     }
