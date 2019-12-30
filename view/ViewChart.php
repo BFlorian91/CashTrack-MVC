@@ -17,7 +17,7 @@
 				data: {
 					labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
 					datasets: [{
-						label: 'Spent',
+						label: 'Florian',
 						data: ["220", 150, 450],
 						backgroundColor: [
 							'rgba(54, 162, 235, 0.2)',
@@ -38,7 +38,15 @@
 				},
 				options: {
 					scales: {
+						xAxes: [{
+            gridLines: {
+                color: "rgba(0, 0, 0, 0)",
+            }
+        }],
 						yAxes: [{
+            gridLines: {
+                color: "rgba(0, 0, 0, 0)",
+            },
 							ticks: {
 								beginAtZero: true
 							}

@@ -46,9 +46,9 @@ class View
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="ml-auto">
-            <a <?php echo ($_GET['page'] == 'addmoney') ? 'class="text-default font-weight-bold mr-4"' : 'class="mr-4 text- font-weight-bold"' ?>  href="index.php?page=addmoney" role="button">Money</a>
-            <a <?php echo ($_GET['page'] == 'addspent') ? 'class="text-success font-weight-bold mr-4"' : 'class="mr-4 text-info font-weight-bold"' ?> class="mr-4 text-info font-weight-bold" href="index.php?page=addspent">Spent</a>
-            <a <?php echo ($_GET['page'] == 'chart') ? 'class="text-success font-weight-bold mr-4"' : 'class="mr-4 text-info font-weight-bold"' ?> class="mr-4 text-info font-weight-bold" href="index.php?page=chart" role="button">Chart</a>
+            <a <?php echo ($_GET['page'] == 'addmoney') ? 'class="text-white font-weight-bold mr-4"' : 'class="mr-4 text-info font-weight-bold"' ?>  href="index.php?page=addmoney" role="button">Money</a>
+            <a <?php echo ($_GET['page'] == 'addspent') ? 'class="text-white font-weight-bold mr-4"' : 'class="mr-4 text-info font-weight-bold"' ?> class="mr-4 text-info font-weight-bold" href="index.php?page=addspent">Spent</a>
+            <a <?php echo ($_GET['page'] == 'chart') ? 'class="text-white font-weight-bold mr-4"' : 'class="mr-4 text-info font-weight-bold"' ?> class="mr-4 text-info font-weight-bold" href="index.php?page=chart" role="button">Chart</a>
             <!-- <div class="col-xl-5 col-md-4 mb-3 text-center"> -->
               <img src="https://cdn.intra.42.fr/users/medium_flbeaumo.jpg" width="50" class="img-fluid z-depth-1 rounded" alt="pp">
             <!-- </div> -->

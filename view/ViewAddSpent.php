@@ -36,7 +36,8 @@ class ViewAppSpent extends View
                         <input class="form-control text-right" type="text" name="spent" placeholder="€">
                     </div>
                 </div>
-                <button type="submit" class="mt-4 w-25 btn btn-danger">Add Spent</button>
+                <button type="submit" class="mt-4 w-25 btn btn-info">Add Spent</button>
+                <button type="submit" class="mt-4 w-25 btn btn-danger float-right"><i class="fas fa-trash"></i> Clear</button>
             </form>
         </div>
 
@@ -61,8 +62,8 @@ class ViewAppSpent extends View
                                 <td><?php echo $val['nameOfSpent']; ?></td>
                                 <td><?php echo $val['spent']; ?>€</td>
                                 <td><?php echo $val['date']; ?></td>
-                                <td class="text-center"><button class="btn btn-danger"><i class="fas fa-trash"></i></button>
-                                <button class="btn btn-info"><i class="fas fa-edit"></i></button></td>
+                                <td class="text-center"><button class="btn btn-info"><i class="fas fa-edit"></i></button>
+                                <button class="btn btn-danger"><i class="fas fa-trash"></i></button></td>
                             </tr>
                             <?php endif; }
                     }
