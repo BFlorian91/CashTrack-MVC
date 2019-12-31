@@ -1,20 +1,11 @@
 <?php
-
-  class ActionGetData
-  {
-    private $_file;
-
-    public function __construct()
-    {
-      $this->_file = file('./datas/datas.csv');
-    }
-
-    public function get_data()
-    {
-      foreach($this->_file as $value) {
-        $csv = explode(';', $value);
-      }
-        print_r(json_encode($csv));
-        return(json_encode($csv));
-    }
+  
+$datas = unserialize(file_get_contents('../datas/datasSpent.txt'));
+$data = [];
+foreach ($datas as $key => $val) {
+  if (isset($val['spent'])) {
+    $data[] = $val['spent'];
   }
+}
+$datas = array_slice($datas, 1);
+echo (json_encode($datas));
